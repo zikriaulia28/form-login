@@ -22,9 +22,13 @@ body {
   padding-top: 50px;
 }
 
-.form {}
-
 .form .icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.form .icon img {
   width: 350px;
   height: 128px;
 }
@@ -112,7 +116,6 @@ body {
 }
 
 .form li {
-  display: flex;
   padding: 10px;
   border-radius: 50%;
   background-color: #607d8b;
@@ -128,8 +131,6 @@ body {
 .form li:hover {
   background-color: #FFC42A;
 }
-
-
 
 .right {
   width: 40%;
